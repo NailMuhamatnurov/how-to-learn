@@ -27,7 +27,7 @@
   left: 64px;
   width: 183px;
   height: 32px;
-  }
+}
 
 .header__title {
   position: relative;
@@ -74,10 +74,6 @@
   right: 0;
   height: 568px;
   width: 568px;
-}
-
-.logo_place_header {
-  margin-left: 64px;
 }
 
 .title {
@@ -224,7 +220,7 @@
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-size: 867px 637px ;
+  background-size: 867px 637px;
   position: relative;
 }
 
@@ -263,7 +259,7 @@
 }
 
 .kaufman {
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
 }
 
@@ -285,10 +281,10 @@
 }
 
 .footer__columns {
+  position: relative;
   width:90%;
   margin-left:auto;
   margin-right:auto;
-  position: relative;
   min-height:350px;
   display:flex;
   flex-direction: row;
@@ -329,9 +325,10 @@
 
 .footer__social-icons {
   width:16px;
-  height:16px; 
+  height:16px;
   background-size: contain;
   margin-right: 10px;
+  position: relative;
 }
 
 .footer__column-heading {
@@ -340,7 +337,6 @@
   margin-top:0;
   line-height:30px;
   font-size:18px;
-  font-weight: bold;
 }
 
 .footer__column-links {
