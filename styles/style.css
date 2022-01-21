@@ -1,8 +1,4 @@
 
-h1, h2, h3, div, p, section {
-  margin:0;
-  padding: 0;
-} 
 
 .page {
   min-width: 1100px;
@@ -62,8 +58,8 @@ h1, h2, h3, div, p, section {
 
 .header__main-illustration {
   position: absolute;
-  width: 765;
-  height: 608;
+  width: 765px;
+  height: 608px;
   bottom: 0;
   right: 0;
   max-width: 50%;
@@ -115,6 +111,8 @@ h1, h2, h3, div, p, section {
 }
 
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   flex-basis: 175px;
   font-size: 18px;
   line-height: 1.2;
@@ -133,13 +131,15 @@ h1, h2, h3, div, p, section {
   margin-bottom: 0;
 }
 
-.main-text__span-accent {
+.two-columns__span-accent {
   font-size: 24px;
   line-height: 34px;
   font-weight: bolder;
  }
 
 .section-title {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   flex-basis: 60%;
@@ -149,6 +149,8 @@ h1, h2, h3, div, p, section {
 }
 
 .section-subtitle {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -174,24 +176,26 @@ h1, h2, h3, div, p, section {
 .table__cell {
   position: relative;
   margin-top: 60px;
-  z-index: 1;
   width: 250px;
 }
 
 .digits {
   margin-bottom: 100px;
   margin-top: 100px;
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
 .table__heading {
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   line-height: 1.15;
   font-weight: bolder;
 }
 
 .table__text {
+  margin: 0;
+  padding: 0;
   margin-top: 20px;
   font-size: 18px;
   line-height: 1.2;
@@ -257,6 +261,7 @@ h1, h2, h3, div, p, section {
   position: relative;
   background-color: #1f1f1f;
   color: white;
+  z-index: -2;
 }
 
 .kaufman__triangle {
@@ -268,32 +273,31 @@ h1, h2, h3, div, p, section {
   width: 877px;
   right: -210px;
   top: 0;
+  z-index: -1;
 }
 
 .footer {
-  padding-top:60px;
-  padding-bottom:40px;
   background-color: #1f1f1f;
   background-size: contain;
   color:white;
   min-height:350px;
   box-sizing: border-box;
+  padding: 60px 0 40px;
 }
 
 .footer__columns {
+  margin: 0 auto;
   position: relative;
   width: 90%;
-  margin-left:auto;
-  margin-right:auto;
-  min-height:350px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  box-sizing: border-box;
+  min-height: 250px;
 }
 
 .footer__column {
-  margin-top:0;
-  margin-bottom:0;
+  margin-top:0; 
+  margin-bottom:0; 
 }
 
 .logo_place_footer {
@@ -344,13 +348,11 @@ h1, h2, h3, div, p, section {
 }
 
 .footer__column-link {
-  align-items: center;
   color: white;
   text-decoration: none;
 }
 
 .footer__column-link:hover {
-  align-items: center;
   color: rgb(228, 159, 159);
   text-decoration: none;
 }
