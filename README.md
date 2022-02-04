@@ -1,9 +1,20 @@
-# Learn to learn
+#”чись учитьс€
 
-**Here is a one-page website.**  
 
-Its main task is to show you how best to *acquire* and *memorize* new knowledge.
 
-When creating this site, we used many different technologies of modern layout. For example, we added such interesting elements as Youtube API, animation.
+** ѕеред вами одностраничный веб-сайт.**
 
-Our plans to improve this site include adding audio tracks with motivational statements of famous people.
+
+
+≈го главна€ задача - показать вам, как лучше всего 
+*приобретать* и *запоминать * новые знани€.
+
+
+
+ѕри создании этого сайта мы использовали множество различных технологий современной верстки. 
+Ќапример, мы добавили такие интересные элементы, как API Youtube, анимаци€.
+
+
+
+¬ наши планы по улучшению этого сайта входит добавление аудиодорожек 
+с мотивационными высказывани€ми известных людей.

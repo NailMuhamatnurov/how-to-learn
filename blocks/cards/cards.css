@@ -7,6 +7,5 @@
   margin-bottom: 100px;
   width: 920px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
